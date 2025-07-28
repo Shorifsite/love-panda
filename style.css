@@ -71,7 +71,7 @@ body, html {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  background: url('cobi/cute-panda.png') no-repeat center/contain;
+  background: url('cute-panda.png') no-repeat center/contain;
   animation: floatPanda 3s ease-in-out infinite;
   position: relative;
   z-index: 10;
