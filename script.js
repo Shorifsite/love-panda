@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const bubbleContainer = document.getElementById('bubbleContainer');
 
   const messages = [
-    "Hey Asha,,💖 Click Swipe Button",
+    "Hey Everyone,,💖 Click Swipe Button",
     "hope you are well🌹",
     "মন খারাপ🥀",
     "বিয়ে করো🌸",
