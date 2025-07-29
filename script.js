@@ -8,13 +8,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const bubbleContainer = document.getElementById('bubbleContainer');
 
   const messages = [
-    "Hey Meghu,,💖",
+    "Hey Asha,,💖 Click Swipe Button",
     "hope you are well🌹",
-    "Today is your very special day 🐼",
-    "Prayers and love to you❤️",
-    "And Happy Birthday ✨",
-    "Sorry for late wishes you💓",
-    "Once again Happy Birthday To You Motu🥰"
+    "মন খারাপ🥀",
+    "বিয়ে করো🌸",
+    "কোনো কিছু ভালো লাগেনা??✨",
+	"বিয়ে করো🌸",
+    "পড়ালেখা ভাল্লাগেনা??💓",
+	"বিয়ে করো🌸??",
+    "দুনিয়াতে শান্তির দরকার??",
+	"বিয়ে করো🌸??",
+    "সবচেয়ে ভালো বুদ্ধি ??",
+    "বিয়ে করো🌸",
+	"হা হা হা",
+    "এটাই বাস্তব🌸",
+    "সব সমস্যার সমাধান 🌸",
+	"🌸 বিয়ে 🌸",
+    "ফিনিশিং টান 🌸",
+	"হা হা হা",
+    "এটাই বাস্তব🌸",
+    "I LOVE YOU 🌸",
   ];
   let msgIndex = 0;
 
@@ -54,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bubble.style.fontSize = (18 + Math.random()*12) + 'px';
       bubble.style.color = emojis[Math.floor(Math.random()*emojis.length)] === '💖' ? '#ff69b4' : '#e40046';
       bubble.innerText = emojis[Math.floor(Math.random()*emojis.length)];
-      bubbleContainer.appendChild(bubble);
+      bubbleContainer.appendChild(bubble);	 
       // Remove bubble after animation
       setTimeout(() => bubble.remove(), 8000);
     }
